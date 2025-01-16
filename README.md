@@ -30,3 +30,5 @@ flowchart TD
 ## Execution
 
 Pour lancer le projet, il suffit de lancer un serveur web sur le dossier racine du projet, ou de simplement d'ouvrir le fichier `index.html` dans un navigateur.
+
+Le site affiche simplement toutes les activités répondant aux filtres. Certaines activités peuvent être agrandis avec les détailes de leurs étapes si elles en ont.
