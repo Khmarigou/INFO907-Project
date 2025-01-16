@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet INFO907</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Projet INFO907 - Luca Policastro</h1>
+    </header>
+    <main>
+        <div id="recherche">
+            <p>Renseignez les informations de votre escouade pour trouver une activité à faire.</p>
+            <label for="nombre-joueur">Nombre de joueurs :</label>
+            <input type="number" id="nombre-joueur" min="1" max="6">
+
+            <label for="temps">Temps (minutes) :</label>
+            <input type="number" id="temps" min="1">
+
+            <label for="niveau">Niveau :</label>
+            <select id="niveau">
+                <option value="débutant">Débutant</option>
+                <option value="intermédiaire">Intermédiaire</option>
+                <option value="expert">Expert</option>
+            </select>
+
+            <div id="boutons">
+                <button id="filtrer">Filtrer</button>
+                <button id="reinitialiser">Réinitialiser</button>
+            </div>
+        </div>
+        <div id="activite">
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
