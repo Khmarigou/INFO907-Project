@@ -12,8 +12,12 @@
     </header>
     <main>
         <div id="recherche">
-            <p>Renseignez les informations de votre escouade pour trouver une activité à faire.</p>
-            <label for="nombre-joueur">Nombre de joueurs :</label>
+            <p id="welcomeMessage">
+                Bienvenue sur le site de recherche d'activités ! <br/>
+                Vous vous ennuyez sur Destiny 2 avec vos amis ? <br/>
+                Remplissez le formulaire ci-dessous pour obtenir une suggestion d'activité à faire !<br/>
+            </p>
+            <label for="nombre-joueur">Nombre de joueurs (1-6) :</label>
             <input type="number" id="nombre-joueur" min="1" max="6">
 
             <label for="temps">Temps (minutes) :</label>
@@ -24,6 +28,12 @@
                 <option value="débutant">Débutant</option>
                 <option value="intermédiaire">Intermédiaire</option>
                 <option value="expert">Expert</option>
+            </select>
+
+            <label for="recompense">Récompenses attendues :</label>
+            <select id="recompense">
+                <option value="légendaire">Légendaire</option>
+                <option value="exotique">Exotique</option>
             </select>
 
             <div id="boutons">
