@@ -5,7 +5,8 @@
 Ce projet a été réalisé dans le cadre du projet final d'INFO907 à l'Université Savoie Mont Blanc.
 
 C'est un simple projet html/css/js qui met en oeuvre une ontologie représentant les activités disponible de Destiny 2.
-Il est possible d'utiliser une recherche pour trouver les activités possibles en fonctions de plusieurs critères.
+
+C'est un moteur de recherche servant à trouver une activité à faire selon les critères des gens avec qui vous jouez. Vous pouvez renseigner le **nombre de joueurs**, le **temps que vous disposez** et le **niveau** générale des joueurs, en validant les filtre seules les activités remplissant les critères sont affichés.
 
 ### Ontologie
 
