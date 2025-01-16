@@ -9,7 +9,8 @@ Il est possible d'utiliser une recherche pour trouver les activités possibles e
 
 ### Ontologie
 
-L'ontologie est représentée sous formes de classes js, qui sont instanciées pour chaque activité. Les activités sont ensuite regroupées dans des catégories, qui sont elles-mêmes regroupées dans des types d'activités.
+L'ontologie est représentée sous formes de classes js dans le fichier `ontologie.js`.
+Les activités sont regroupées dans des catégories, qui sont elles-mêmes regroupées dans des types d'activités.
 
 ```mermaid
 flowchart TD
